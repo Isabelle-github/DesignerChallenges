@@ -110,13 +110,13 @@ main img{
     font-size: 1,25em;
     font-weight: lighter;
 }
-.col{
+.part1 p{
     width: 75%;
 }
-article h1{
+main article:first-of-type h1{
     font-size: 2em;
     padding-top: 2em;
-    padding-left: 22%;  
+    padding-left: 20%;  
     width: 50%;
 }
 /* ========Paragraph2====== */
@@ -150,9 +150,68 @@ article h1{
 .part2 div p::first-line{
     font-weight: bold;
 }
+.question{
+    width: 50%;
+    margin: 0 auto;
+    border-style: solid;
+    text-align: center;
+}
+.question h1{
+    font-size: 2em;
+    padding-top: 2em;
+}
+.question p{
+    font-size: 1.25em;
+    padding: 1em 0;
+    font-weight: lighter;
+}
 /* .part2 div:first-of-type ::before{
     content: url("./assets/img/title01.svg");
     width: 2em;
     height: 2em;
     display: inline-block;
 } */
+/* ======Main-STEP=======*/
+.stepOdd {
+    width: 100%;
+    height: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+}
+
+.stepOdd h1{
+    font-size: 3em;
+    color: #dddddd ;
+    border-style: double;
+    padding-left: 2em;
+}
+.stepOdd img{
+    width: 40%;
+    border-style: double;
+}
+.stepOdd p{
+    font-size: 1.25em;
+    font-weight: lighter;
+    padding-left: 5em;
+}
+.stepOdd p:nth-of-type(1){
+    font-weight: bold;
+}
+
+/* .divStepOdd{
+    width: 30%;
+    border-style: dotted;
+} */
+.stepOdd div{
+    width: 40%;
+    border-style: dotted;
+    margin-top: 8em;
+}
+.iconOdd{
+    width: 3em;
+    height: 3em;
+    left: 0;
+    right: 7em;
+    border-style: double;
+}
