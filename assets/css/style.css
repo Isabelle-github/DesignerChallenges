@@ -8,6 +8,7 @@ Farben: #0b0c17 / #ff3571 / #dddddd / #3C30FF / #FFF / #000 */
     box-sizing: border-box;
     color: #0b0c17 ;
     font-family: 'Roboto', sans-serif;
+    line-height:2em;
 }
 /* =======HEADER======= */
 header{
@@ -81,22 +82,29 @@ main img{
     height: 100vh;
     margin: 6em 0;
 }
+/* ========Paragraph1====== */
 .part1{
     display: flex;
     justify-content:space-around;
-    align-items: baseline;
-    width: 55%;
+    align-items:baseline;
+    width: 60%;
     border-style: solid;
     margin: 0 auto;
 }
+.part1 div{
+    display: flex;
+    flex-wrap: wrap;
+    border-style: dotted;
+    justify-content: start;
+}
 .part1 img{
-    width: 2em;
-    height: 2em;
+    width: 3em;
+    height: 3em;
     border-style: ridge;
 }
 .part1 h1{
     font-size: 2em;
-    padding-right: 2em; 
+    /* padding-right: 2em;  */
 }
 .part1 p{
     font-size: 1,25em;
@@ -111,3 +119,40 @@ article h1{
     padding-left: 22%;  
     width: 50%;
 }
+/* ========Paragraph2====== */
+.part2{
+    display: flex;
+    justify-content:space-between;
+    width: 60%;
+    border-style: solid;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    font-size: 1.25em;
+    padding: 3em 0;
+    font-weight: lighter;
+}
+.part2 div{
+    width: 50%;
+    border-style: groove;
+    padding-bottom: 3em;
+    padding-right: 2em;
+    display: flex;
+    align-items: baseline;
+}
+.part2 div img{
+    width: 1.5em;
+    height: 1.5em;
+    display: inline-block;
+}
+.part2 div p{
+    padding-left: 1em;
+}
+.part2 div p::first-line{
+    font-weight: bold;
+}
+/* .part2 div:first-of-type ::before{
+    content: url("./assets/img/title01.svg");
+    width: 2em;
+    height: 2em;
+    display: inline-block;
+} */
