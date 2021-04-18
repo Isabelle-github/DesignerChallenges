@@ -171,29 +171,28 @@ main article:first-of-type h1{
     height: 2em;
     display: inline-block;
 } */
-/* ======Main-STEP=======*/
+/* ======Main-STEP1=======*/
 .stepOdd {
     width: 100%;
-    height: 60vw;
     display: flex;
     justify-content: center;
     align-items:flex-start;
 }
 
 .stepOdd h1{
-    font-size: 3em;
+    font-size: 4em;
     color: #dddddd ;
     border-style: double;
     padding-left: 2em;
 }
-.stepOdd img{
-    width: 40%;
+.imgOdd{
+    width: 35%;
     border-style: double;
 }
 .stepOdd p{
     font-size: 1.25em;
     font-weight: lighter;
-    padding-left: 5em;
+    padding-left: 7em;
 }
 .stepOdd p:nth-of-type(1){
     font-weight: bold;
@@ -204,14 +203,52 @@ main article:first-of-type h1{
     border-style: dotted;
 } */
 .stepOdd div{
-    width: 40%;
+    width: 50%;
     border-style: dotted;
     margin-top: 8em;
 }
 .iconOdd{
     width: 3em;
     height: 3em;
-    left: 0;
-    right: 7em;
+    border-style: double;
+    margin-left: 8em;
+}
+/* ======Main-STEP2=======*/
+.stepEven {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+}
+.stepEven div {
+    order: -1;
+    width: 40%;
+    border-style: dotted;
+    margin-top: 8em;
+    margin-right: 8em;
+}
+.iconEven{
+    width: 3em;
+    height: 3em;
     border-style: double;
 }
+.stepEven h1{
+    font-size: 4em;
+    color: #dddddd ;
+    border-style: double;
+}
+.stepEven p:nth-of-type(1){
+    font-weight: bold;
+}
+.stepEven p{
+    font-size: 1.25em;
+    font-weight: lighter;    
+}
+.imgEven{
+    width: 35%;
+    border-style: double;
+}
+
+/* ======Main-STEP3=======*/
+
+/* ======Main-STEP4=======*/
