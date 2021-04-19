@@ -176,7 +176,7 @@ main article:first-of-type h1{
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items:flex-start;
+    align-items:start;
 }
 
 .stepOdd h1{
@@ -186,7 +186,8 @@ main article:first-of-type h1{
     padding-left: 2em;
 }
 .imgOdd{
-    width: 35%;
+    width: 40%;
+    height: 50%;
     border-style: double;
 }
 .stepOdd p{
@@ -203,7 +204,8 @@ main article:first-of-type h1{
     border-style: dotted;
 } */
 .stepOdd div{
-    width: 50%;
+    width: 40%;
+    height: 50%;
     border-style: dotted;
     margin-top: 8em;
 }
@@ -218,11 +220,12 @@ main article:first-of-type h1{
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items:flex-start;
+    align-items:start;
 }
 .stepEven div {
     order: -1;
     width: 40%;
+    height: 50%;
     border-style: dotted;
     margin-top: 8em;
     margin-right: 8em;
@@ -245,10 +248,33 @@ main article:first-of-type h1{
     font-weight: lighter;    
 }
 .imgEven{
-    width: 35%;
+    width: 40%;
+    height: 50%;
     border-style: double;
 }
-
-/* ======Main-STEP3=======*/
+.question input{
+    display: block;
+    text-align: center;
+}
+.question a{
+    text-decoration: none;
+    background-color: #ff3571;
+    padding: 1em 3em;
+    display: inline-block;
+    color: #fff;
+    border-radius: 3px;
+}
+footer{
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+    font-weight: lighter;
+    margin-left: 1em;
+}
+footer img{
+    width: 2em;
+    height: 2em;
+}
+/* ======FOOTER=======*/
 
 /* ======Main-STEP4=======*/
